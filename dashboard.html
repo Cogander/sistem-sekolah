@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard Sekolah</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="checkLogin(); generateStudents();">
+
+<div class="dashboard">
+
+<h1>Dashboard Sekolah</h1>
+
+<div class="stats">
+    <div class="stat-card">Total Siswa: 653</div>
+    <div class="stat-card">Total Guru: 108</div>
+    <div class="stat-card">Total Pengurus: 78</div>
+</div>
+
+<h2>Data Siswa</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Kelas</th>
+        </tr>
+    </thead>
+    <tbody id="studentTable"></tbody>
+</table>
+
+<br>
+<button onclick="logout()">Logout</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
