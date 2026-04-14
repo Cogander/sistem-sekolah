@@ -15,7 +15,7 @@ function register(){
 }
 
 // LOGIN
-function login(){
+function login(gia.live){
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
 
